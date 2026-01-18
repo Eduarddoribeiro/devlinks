@@ -1,12 +1,13 @@
 import Header from './components/Header'
 import { CardProjeto } from './components/CardProjeto'
 import { listaProjetos } from './data/projetos'
+import { AtividadeGithub } from './components/AtividadeGithub'
 
 function App() {
  
   return (
     <>
-      <div className="min-h-screen bg-white flex flex-col items-center py-12">
+      <div className="min-h-screen bg-slate-100 flex flex-col items-center py-12">
       <Header />
 
       <section className='w-full max-w-2xl px-4 mt-12 flex flex-col gap-6'>
@@ -23,6 +24,8 @@ function App() {
             tecnologias={projeto.tecnologias}
           />
         ))}
+
+        <AtividadeGithub />
       </section>
     </div>
     </>
