@@ -8,7 +8,7 @@ export function Header() {
             />
             <h1 className="text-2xl font-extrabold text-slate-900">Eduardo Ribeiro</h1>
             <p className="text-slate-600 font-medium text-center px-4">
-                Desenvolvedor Fullstack | JavaScript | TypeScript | React
+                Desenvolvedor Fullstack | JavaScript | TypeScript | React | Node.js | SQL
             </p>
         </header>
     )
