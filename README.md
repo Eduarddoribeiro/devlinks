@@ -1,73 +1,34 @@
-# React + TypeScript + Vite
+# 🚀 DevLinks | Portfólio Fullstack
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um portfólio dinâmico e minimalista desenvolvido para centralizar meus principais projetos realizados durante o bootcamp da [Generation Brasil](https://www.linkedin.com/school/generationbrasil/posts/?feedView=all) e demonstrar minha evolução técnica como desenvolvedor Fullstack.
 
-Currently, two official plugins are available:
+## 🛠️ Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Front-end:** React + TypeScript
+- **Estilização:** Tailwind CSS v4 (utilizando fundo Off-White para melhor contraste)
+- **Ícones:** Radix UI Icons (substituindo bibliotecas obsoletas para maior estabilidade)
+- **Integração:** API REST do GitHub para exibição de atividade em tempo real
+- **Build Tool:** Vite
 
-## React Compiler
+## ✨ Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Header Dinâmico:** Bio atualizada com foco em Node.js e SQL.
+- **Curadoria de Projetos:** Lista de projetos de destaque (Blog, Atmos, Sistema Bancário) com descrições técnicas.
+- **GitHub Feed:** Consumo assíncrono dos últimos commits realizados em repositórios públicos.
+- **UI/UX Refinada:** Design centralizado com hierarquia visual clara e feedback de hover nos cards.
 
-## Expanding the ESLint configuration
+## 🔧 Como Executar o Projeto
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+1. Clone o repositório:
+   ```bash
+   git clone [https://github.com/Eduarddoribeiro/devlinks.git](https://github.com/Eduarddoribeiro/devlinks.git)
+   ```
+2. Instale as dependências:
+   ```bash
+   npm run dev
+   ```
+3. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm run dev
+   ```
+   
