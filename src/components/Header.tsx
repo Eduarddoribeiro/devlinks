@@ -1,3 +1,5 @@
+import { LinkedInLogoIcon, GitHubLogoIcon } from "@radix-ui/react-icons";
+
 export function Header() {
     return (
         <header className="flex flex-col items-center gap-3">
@@ -10,6 +12,27 @@ export function Header() {
             <p className="text-slate-600 font-medium text-center px-4">
                 Desenvolvedor Fullstack | JavaScript | TypeScript | React | Node.js | SQL
             </p>
+
+            <div className="flex gap-4 mt-3">
+                <a 
+                    href="https://github.com/Eduarddoribeiro" 
+                    target="_blank" 
+                    rel="noreferrer"
+                    className="text-slate-500 hover:text-brand-blue transition-colors duration-300"
+                    title="GitHub"
+                >
+                    <GitHubLogoIcon className="w-8 h-8" /> 
+                </a>
+                <a 
+                    href="https://www.linkedin.com/in/eduardoribeirodefraga/" 
+                    target="_blank" 
+                    rel="noreferrer"
+                    className="text-slate-500 hover:text-brand-blue transition-colors duration-300"
+                    title="LinkedIn"
+                >
+                    <LinkedInLogoIcon className="w-8 h-8" />
+                </a>
+            </div>
         </header>
     )
 }
