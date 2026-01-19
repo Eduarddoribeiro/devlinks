@@ -1,4 +1,4 @@
-import { LinkedInLogoIcon, GitHubLogoIcon } from "@radix-ui/react-icons";
+import { LinkedInLogoIcon, GitHubLogoIcon, ExternalLinkIcon } from "@radix-ui/react-icons";
 
 export function Header() {
     return (
@@ -14,6 +14,7 @@ export function Header() {
             </p>
 
             <div className="flex gap-4 mt-3">
+                
                 <a 
                     href="https://github.com/Eduarddoribeiro" 
                     target="_blank" 
@@ -33,6 +34,16 @@ export function Header() {
                     <LinkedInLogoIcon className="w-8 h-8" />
                 </a>
             </div>
+           <div className="mt-2">
+        <a 
+            href="/curriculo-eduardo-ribeiro.pdf" 
+            target="_blank"
+            className="flex items-center gap-2 px-6 py-2 border border-slate-200 rounded-full text-slate-600 hover:bg-slate-50 hover:border-brand-blue hover:text-brand-blue transition-all text-sm font-bold shadow-sm"
+        >
+            <ExternalLinkIcon className="w-5 h-5" />
+            Visualizar Currículo
+        </a>
+    </div>
         </header>
     )
 }
