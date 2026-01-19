@@ -9,7 +9,7 @@ export function Header() {
                 className="w-32 h-32 rounded-full border-4 border-brand-blue object-cover shadow-lg"
             />
             <h1 className="text-2xl font-extrabold text-slate-900">Eduardo Ribeiro</h1>
-            <p className="text-slate-600 font-medium text-center px-4">
+            <p className="text-slate-600 font-medium text-center px-4 text-lg">
                 Desenvolvedor Fullstack | JavaScript | TypeScript | React | Node.js | SQL
             </p>
 
