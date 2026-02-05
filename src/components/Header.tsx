@@ -4,7 +4,7 @@ export function Header() {
     return (
         <header className="flex flex-col items-center gap-3">
             <img
-                src="https://media.licdn.com/dms/image/v2/D4D03AQEi6kM3PwKkNg/profile-displayphoto-scale_200_200/B4DZnPkINxKoAc-/0/1760123979732?e=1770249600&v=beta&t=kC9XSnGRa_AgEF6R7AzeLYRV9p__vjueuQoLupADAP0"
+                src="https://avatars.githubusercontent.com/u/155761443?v=4"
                 alt="Foto de Perfil de Eduardo Ribeiro - GitHub"
                 className="w-32 h-32 rounded-full border-4 border-brand-blue object-cover shadow-lg"
             />
