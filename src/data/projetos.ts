@@ -6,20 +6,21 @@ export const listaProjetos = [
     link: "https://github.com/Eduarddoribeiro/blog-pessoal-react", 
     tecnologias: ["NestJS", "React", "TypeScript", "MySQL", "JWT"]
   },
-  {
+ {
     id: 2,
-    titulo: "NutriGo - Delivery API",
-    descricao: "API RESTful escalável focada em alimentação saudável. Implementa relacionamentos One-to-Many complexos com TypeORM e um filtro inteligente para produtos 'Healthy' utilizando arquitetura MVC.",
-    link: "https://github.com/Grupo-05-Turma-JavaScript-10/delivery", 
-    tecnologias: ["NestJS", "TypeScript", "TypeORM", "MySQL", "MVC"]
+    titulo: "Colab+ | RH Fullstack", 
+    descricao: "Sistema corporativo de ponta a ponta. O Frontend (React + Vite) consome uma API complexa (NestJS) para oferecer Dashboards interativos, autenticação segura e cálculo automatizado de folha de pagamento.",
+    link: "https://colabplus.vercel.app",
+    tecnologias: ["React", "NestJS", "TypeScript", "TypeORM", "Chart.js"] 
   },
   {
-  id: 3,
-  titulo: "Colab+ | Gestão de RH",
-  descricao: "API RESTful para gestão de RH com lógica de folha de pagamento. Implementa CRUDs complexos, validação de DTOs com Class Validator e relacionamentos 1:1 e 1:N entre Colaboradores, Usuários e Cargos.",
-  link: "https://github.com/Grupo-05-Turma-JavaScript-10/sistema-cadastro-rh", 
-  tecnologias: ["NestJS", "TypeScript", "MySQL", "TypeORM", "Class Validator"]
-},
+    id: 3,
+    titulo: "NutriGo - Delivery API",
+    descricao: "API RESTful escalável focada em alimentação saudável. Implementa relacionamentos One-to-Many complexos com TypeORM e um filtro inteligente para produtos 'Healthy' utilizando arquitetura MVC.",
+    link: "https://github.com/Grupo-05-Turma-JavaScript-10/delivery",
+    tecnologias: ["NestJS", "TypeScript", "TypeORM", "MySQL", "MVC"]
+
+  },
   {
     id: 4,
     titulo: "Atmos - Previsão do Tempo",
